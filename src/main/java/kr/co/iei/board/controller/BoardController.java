@@ -1,10 +1,10 @@
-package kr.co.iei.yomi.board.controller;
+package kr.co.iei.board.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 
-import kr.co.iei.yomi.board.service.BoardService;
+import kr.co.iei.board.service.BoardService;
 
 @Controller
 

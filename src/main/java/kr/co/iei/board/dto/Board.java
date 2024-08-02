@@ -1,4 +1,4 @@
-package kr.co.iei.yomi.board.dto;
+package kr.co.iei.board.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
