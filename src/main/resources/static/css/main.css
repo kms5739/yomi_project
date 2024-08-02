@@ -1,0 +1,30 @@
+:root {
+    --maincolor: #F24C00;
+    --subcolor: #F7B788;
+    --monocolor: #FFF8F5;
+    --pointfont: #010E47;
+    --mainfont: #5E6276;
+    --monocolor2: #EDE4E1;
+    --whitecolor: #F3F3F3;
+}
+
+* {
+    color: var(--mainfont);
+}
+
+header {
+    background-color: var(--maincolor);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--pointfont);
+}
+
+.header-top .logo {
+    color: var(--maincolor);
+}
+
+header .header-top {
+    background-color: #fff;
+}
