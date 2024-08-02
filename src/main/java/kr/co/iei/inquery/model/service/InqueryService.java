@@ -65,7 +65,6 @@ public class InqueryService {
 				//pageNavi += "<a href='/inquery/list?reqPage=" + pageNo + "'>";
 			} else {
 				pageNavi += "<a class='page-item' href='/notice/list?reqPage=" + pageNo + "'>";
-				//pageNavi += "<a href='/inquery/list?reqPage=" + pageNo + "'>";
 			}
 			pageNavi += pageNo;
 			pageNavi += "</a></li>";
@@ -79,9 +78,8 @@ public class InqueryService {
 		if (pageNo <= totalPage) {
 			pageNavi += "<li>";
 			pageNavi += "<a class='page-item' href='/notice/list?reqPage=" + pageNo + "'>";
-			//pageNavi += "<a href='/inquery/list?reqPage=" + pageNo + "'>";
 			pageNavi += "<span class='material-icons'>chevron_right</span>";
-			//pageNavi += "<span></span>";
+			
 			
 			pageNavi += "</a></li>";
 		}
