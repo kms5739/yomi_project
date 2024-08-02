@@ -1,4 +1,4 @@
-package kr.co.iei.board.dto;
+package kr.co.iei.board.model.dto;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
